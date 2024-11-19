@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Company Report Summarizer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Company Annual Report Summarizer</h1>
+        <p>Use the search bar below to get summaries of company reports instantly.</p>
+        <form method="POST" action="/" class="search-bar">
+            <input 
+                type="text" 
+                name="company_name" 
+                placeholder="Enter company name like Uber, Ola" 
+                required>
+            <button type="submit">Search</button>
+        </form>
+    </div>
+</body>
+</html>
