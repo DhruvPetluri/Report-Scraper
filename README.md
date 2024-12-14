@@ -40,7 +40,7 @@ project-root/
 ├── app.py                    # Main Flask app for handling frontend/backend logic
 ├── financial_statement.py    # Backend script to process and extract data
 
-'''
+
 ## How It Works
 
 1. **User Input**: The Flask app takes a company name as input from the user.
