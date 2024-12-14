@@ -63,14 +63,12 @@ project-root/
    pip install -r requirements.txt
    ```
 
-3. Ensure Java is installed and configured for pdfplumber (optional for OCR).
-
-4. Run the Flask app:
+3. Run the Flask app:
    ```bash
    python app.py
    ```
 
-5. Access the application at `http://localhost:5000`.
+4. Access the application at `http://localhost:5000`.
 
 ## Usage
 
