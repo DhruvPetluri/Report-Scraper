@@ -32,7 +32,8 @@ The financial extraction is not yet very robust, but it works for PDFs with easi
 
 ```
 project-root/
-|-- extracted_statements/       # Folder to store filtered Excel tables
+|-- extracted_statements/# Folder to store filtered Excel tables
+|-- pdfs/
 |-- static/
 |   |-- styles.css              # CSS file for frontend styling
 |-- templates/
@@ -75,7 +76,8 @@ project-root/
 
 - Enter the company name in the web interface.
 - The application scrapes and downloads relevant PDFs.
-- Extracted financial statements are stored in the `output/` directory.
+- financial_statement.py extracts financial statements.
+- Extracted financial statements are stored in the `extracted_statements/` directory.
 
 ## Future Enhancements
 
