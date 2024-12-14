@@ -54,8 +54,8 @@ project-root/
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/username/financial-report-scraper.git
-   cd financial-report-scraper
+   git clone https://github.com/DhruvPetluri/Report-Scraper
+   cd Report-Scraper
    ```
 
 2. Install dependencies:
