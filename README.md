@@ -53,7 +53,7 @@ project-root/
 ## Installation and Setup
 
 1. Clone the repository:
-   ```
+   ```bash
    git clone https://github.com/DhruvPetluri/Report-Scraper
    cd Report-Scraper
    ```
