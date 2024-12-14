@@ -30,6 +30,7 @@ The financial extraction is not yet very robust, but it works for PDFs with easi
 
 ## Project Structure
 
+```
 project-root/
 ├── extracted_statements/     # Folder to store filtered Excel tables
 ├── pdfs/                     # Folder to store PDFs
@@ -39,6 +40,8 @@ project-root/
 │   └── index.html            # HTML file for the web interface
 ├── app.py                    # Main Flask app for handling frontend/backend logic
 ├── financial_statement.py    # Backend script to process and extract data
+```
+
 
 
 ## How It Works
