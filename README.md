@@ -1,6 +1,7 @@
 # Financial Report Scraping and Analysis Project
 
 This project is a solution for automating the extraction and analysis of financial statements from company annual reports available online. Built with a combination of Python frameworks and libraries, the project encompasses web scraping, natural language processing, and a user-friendly web interface.
+The financial extraction is not yet very robust, but it works for PDFs with easily recognisable table structures.
 
 ## Features
 
