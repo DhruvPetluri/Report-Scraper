@@ -16,12 +16,6 @@ app = Flask(__name__)
 class AnnualReportsSpider(scrapy.Spider):
     name = 'annual_reports'
     max_pages = 10  # Limit the spider to parse the first 10 pages of search results
-    custom_settings = {
-    "RETRY_ENABLED": True,
-    "RETRY_TIMES": 3,
-    "DOWNLOAD_TIMEOUT": 15,
-    "REQUEST_FINGERPRINTER_IMPLEMENTATION": "2.7"
-}
 
     def __init__(self, company_name, *args, **kwargs):
         super().__init__(*args, **kwargs)
@@ -82,7 +76,7 @@ class AnnualReportsSpider(scrapy.Spider):
         documents = [text.lower().split()]
         bm25 = BM25Okapi(documents)
         query = ' '.join(self.keywords).split()
-        score = bm25.get_scores(query)[0]
+        score = bm25.get_score(query)[0]
 
         # Set a relevance threshold, adjust as needed
         relevance_threshold = 0.3

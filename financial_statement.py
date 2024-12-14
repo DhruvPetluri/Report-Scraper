@@ -110,3 +110,5 @@ if __name__ == "__main__":
         if pdf_file.endswith(".pdf"):
             pdf_path = os.path.join(pdf_directory, pdf_file)
             extract_financial_statements_from_pdf(pdf_path, output_directory, keywords_to_search)
+
+    print("Extraction completed.")
