@@ -30,7 +30,7 @@ The financial extraction is not yet very robust, but it works for PDFs with easi
 
 ## Project Structure
 
-```
+
 project-root/
 |-- extracted_statements/# Folder to store filtered Excel tables
 |-- pdfs/
